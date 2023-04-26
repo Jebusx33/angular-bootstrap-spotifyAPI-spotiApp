@@ -1,0 +1,22 @@
+.zoom-in-out-box {
+    margin: 2px;
+    width: 25px;
+    height: 25px;
+    background:transparent;
+    animation: zoom-in-zoom-out 3s ease infinite;
+  }
+  
+  
+
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+     
+    }
+    50% {
+      transform: scale(1.5, 1.5);
+    }
+    100% {
+      transform: scale(1, 1),;
+    }
+  }
