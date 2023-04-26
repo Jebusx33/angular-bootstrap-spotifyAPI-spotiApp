@@ -10,7 +10,7 @@ export class SpotifyService {
     console.log("Spotify service ON")
    }
    getNewRelease(){
-    const token = 'BQCcNUheIdK7nsTstw0pZDWgw9Rng6I82Jjnm_vzas1q7Q_805wiQcMjExb9fNsqjVqVi416rH-at_URzVA-2t1ztNLBYY2aXNe5tL-niaOSfYSwOxx2NG8n8V2urXU35gyCsaevDIzjy2ibTvaCMq4A9CZLCZnFe8KV7SX6ZaJRkVTi2iztUnC0qjirkzoVWVEGgZmBTnmM0KLaYRemLW52Cihu5-QybqW8h4Mgy-vHFOxgK7titQsg5PyZrN9E1mrcN4ACjS1CQr60RwEQPlV2wjZCchM7Rc4EdpOiNGhCKPITLjHL_SaWlyXi_SGPWHo3sdwIp10mTxTr_U26M8dvL7G2PKQXgoZWW0QjdWUoE3g';
+    const token = 'BQC-kC2aroYdRxl5E1w_dK1nMYP809PHrhGXc2rNQqSrFjTzCth3_ejz-0WkmxOs2CJafLeC_l6MrGy5zwTiCbn9nSD6TVkanxnWWdgI7x4-E1DTfLQa';
      const headers = new HttpHeaders({
       Authorization:`Bearer ${token}` 
      }) 
