@@ -10,7 +10,7 @@ export class SpotifyService {
     console.log("Spotify service ON")
    }
    getNewRelease(){
-    const token = 'BQCQXu2UOQZpz1dNQgTLM79RGe6FxRoAS_YNDLEPbGfk17qe-_Ujwi766oWF__t_6Mwe6JIl0zB8sxdABRx6AUIEi2b-mz72GQICzemziKCMfvX3CRx2OivIOJwseH6B5mKk1eou2Eluu7867J9sQupaHaKpdp_MGjYXX1dtJoIhEDU1Igvu073nDKEN8SwnaJ__ITZzcn0fdLMn2p1-kVVtb_SIlhm2nh_clGNNjnP2LSMOPHQEcx0mduEn7SlGLIwpiif-d25ps7sCeO5lvCmpY9hheRkX75b6KjZuRDbZk4ZQPaQjN4ogOD0mcSsm8o7pcc_za_w_x9rEr2llPxKl3PQ510G7g5BsUjNUV1v1Ngg';
+    const token = 'BQCcNUheIdK7nsTstw0pZDWgw9Rng6I82Jjnm_vzas1q7Q_805wiQcMjExb9fNsqjVqVi416rH-at_URzVA-2t1ztNLBYY2aXNe5tL-niaOSfYSwOxx2NG8n8V2urXU35gyCsaevDIzjy2ibTvaCMq4A9CZLCZnFe8KV7SX6ZaJRkVTi2iztUnC0qjirkzoVWVEGgZmBTnmM0KLaYRemLW52Cihu5-QybqW8h4Mgy-vHFOxgK7titQsg5PyZrN9E1mrcN4ACjS1CQr60RwEQPlV2wjZCchM7Rc4EdpOiNGhCKPITLjHL_SaWlyXi_SGPWHo3sdwIp10mTxTr_U26M8dvL7G2PKQXgoZWW0QjdWUoE3g';
      const headers = new HttpHeaders({
       Authorization:`Bearer ${token}` 
      }) 
